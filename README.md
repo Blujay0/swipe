@@ -12,5 +12,5 @@
 * Responsive Design
 
 ## Resources & Acknowledgments
-
+* [Google Fonts](https://fonts.google.com/)
 
