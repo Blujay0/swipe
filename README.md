@@ -1,6 +1,5 @@
 # Swipe
-
-
+Landing page for a payment system service.
 
 ## Features
 * Google Fonts API
