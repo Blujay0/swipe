@@ -14,11 +14,17 @@
   --h6-size: 22px;
   --subtitle-size: 17px;
   --subtitle-height: 26px;
+  --p-size: 18px;
+  --p-height: 26px;
+  --secondary-text-size: 14px;
+  --secondary-text-height: 18px;
+
   /* SPACING */
   --spacing-sm: 8px;
   --spacing-md: 16px;
   --spacing-lg: 32px;
   --spacing-xl: 64px;
+
   --purple-1: #6962f7;
   --purple-2: #7000ff;
   --blue-1: #00d4ff;
@@ -103,6 +109,13 @@ a:hover {
   color: var(--primary-accent);
 }
 
+p {
+  font-size: var(--p-size);
+  line-height: var(--p-height);
+  font-weight: 400;
+  margin: var(--spacing-md) 0;
+}
+
 .subtitle, .subtitle2 {
   color: var(--purple-1);
   font-family: var(--heading-font);
@@ -116,3 +129,9 @@ a:hover {
   color: var(--blue-1);
 }
 
+.secondary-text {
+  font-size: var(--secondary-text-size);
+  line-height: var(--secondary-text-height);
+  color: var(--text-grey);
+  letter-spacing: 0.25px;
+}
