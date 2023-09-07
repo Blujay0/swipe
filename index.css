@@ -156,3 +156,19 @@ p {
   cursor: pointer;
 }
 
+.secondary-button {
+  font-family: var(--body-font);
+  font-size: var(--button-size);
+  letter-spacing: 1.25px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-accent);
+  transition: all 0.15s ease;  
+}
+
+.secondary-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
