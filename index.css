@@ -172,3 +172,9 @@ p {
   opacity: 0.75;
   cursor: pointer;
 }
+
+.with-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
