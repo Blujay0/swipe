@@ -189,9 +189,17 @@ p {
 
 /* NAVBAR */
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .menu {
   display: flex;
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu li a {
