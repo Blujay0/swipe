@@ -42,7 +42,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: var(--spacing-sm) 0 0 0;
-
+  background-color: var(--purple-1);
 }
 
 h1 {
