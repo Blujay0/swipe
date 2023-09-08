@@ -435,3 +435,12 @@ main {
   border-radius: 20px;
 }
 
+/* WHY SWIPE SECTION*/
+
+.why-swipe-section .card-container {
+  display: flex;
+}
+
+.why-swipe-section .card-container .card {
+  width: 25%;
+}
