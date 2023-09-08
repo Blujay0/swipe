@@ -338,20 +338,25 @@ main {
     "card slack slack"
     "phone slack slack"
     "phone dash dash";
+  grid-gap: var(--spacing-lg);
 }
 
 #credit-card {
   grid-area: card;
+  width: 100%;
 }
 
 #slack-invoice {
   grid-area: slack;
+  width: 100%;
 }
 
 #phone {
   grid-area: phone;
+  width: 100%;
 }
 
 #dash {
   grid-area: dash;
+  width: 100%;
 }
