@@ -520,6 +520,11 @@ main {
   background-color: var(--primary-accent);
 }
 
+.virtual-events-section .col-left {
+  height: 446px;
+  padding: 0 var(--spacing-xl);
+}
+
 .swipe-sessions-card {
   width: 540px;
   height: 440px;
