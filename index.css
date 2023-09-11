@@ -502,3 +502,12 @@ main {
   display: flex;
   justify-content: center;
 }
+
+.virtual-events-section .primary-button {
+  background-color: var(--purple-1);
+  margin: var(--spacing-md) 0 0 0;
+}
+
+.virtual-events-section .primary-button:hover {
+  background-color: var(--primary-accent);
+}
