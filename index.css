@@ -363,6 +363,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: var(--bg-light);
 }
 .graphic-grid {
   display: grid;
@@ -390,6 +391,7 @@ p {
   width: 100%;
   box-shadow: var(--standard-box-shadow);
 }
+
 #dash {
   grid-area: dash;
   width: 100%;
