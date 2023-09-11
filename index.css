@@ -641,3 +641,17 @@ main {
 .footer .col {
   width: 25%;
 }
+
+.footer .col ul {
+  list-style-type: none;
+}
+
+.footer .col a {
+  color: var(--text-dark);
+  font-weight: normal;
+}
+
+.footer .col a:hover {
+  color: var(--purple-1);
+  text-decoration: underline;
+}
