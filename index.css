@@ -858,6 +858,10 @@ p {
     width: 100%;
     margin: var(--spacing-sm) 0;
   }
+
+  #globe {
+    opacity: 10%;
+  }
 }
 
 html, 
