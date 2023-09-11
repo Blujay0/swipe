@@ -625,3 +625,19 @@ main {
   color: var(--purple-2);
   padding-left: 0;
 }
+
+/* FOOTER STYLES */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-light);
+}
+
+.footer .section-container {
+  display: flex;
+}
+
+.footer .col {
+  width: 25%;
+}
