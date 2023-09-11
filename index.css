@@ -565,5 +565,9 @@ main {
 
 .virtual-events-section .avatars img {
   width: 80px;
+}
 
+.virtual-events-section .avatars img:nth-of-type(2) {
+  position: absolute;
+  left: 55px;
 }
