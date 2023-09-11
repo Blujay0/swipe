@@ -650,6 +650,11 @@ main {
 
 .footer .col ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.footer .col ul li {
+  margin: var(--spacing-md) 0;
 }
 
 .footer .col a {
