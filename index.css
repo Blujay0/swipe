@@ -634,6 +634,11 @@ main {
   background-color: var(--bg-light);
 }
 
+#footer-logo {
+  max-width: 108px;
+  margin: 0 0 var(--spacing-md) 0;
+}
+
 .footer .section-container {
   display: flex;
 }
@@ -659,6 +664,7 @@ main {
 .footer .icon-link {
   display: flex;
   align-items: center;
+  margin: var(--spacing-sm);
 }
 
 .footer .icon-link img {
