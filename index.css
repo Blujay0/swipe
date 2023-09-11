@@ -656,6 +656,11 @@ main {
   text-decoration: underline;
 }
 
+.footer .icon-link {
+  display: flex;
+  align-items: center;
+}
+
 .footer .icon-link img {
   width: 24px;
 }
