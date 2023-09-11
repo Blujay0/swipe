@@ -655,3 +655,7 @@ main {
   color: var(--purple-1);
   text-decoration: underline;
 }
+
+.footer .icon-link img {
+  width: 24px;
+}
