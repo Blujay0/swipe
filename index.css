@@ -512,3 +512,9 @@ main {
 .virtual-events-section .primary-button:hover {
   background-color: var(--primary-accent);
 }
+
+.swipe-sessions-card {
+  width: 540px;
+  height: 440px;
+  box-shadow: var(--standard-box-shadow);
+}
