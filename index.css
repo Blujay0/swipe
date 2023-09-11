@@ -756,15 +756,17 @@ p {
 
 /* TABLET SIZE */
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: purple;
+  :root {
+    --h1-size: 64px;
+    --h1-height: 72px;
+    --h3-size: 34px;
   }
+
+  
 }
 
 /* MOBILE SIZE */
 @media only screen and (max-width: 550px) {
-  body {
-    background-color: cyan;
-  }
+
 }
 
