@@ -61,6 +61,7 @@ body {
 
 main {
   width: 100%;
+  margin: var(--spacing-xl) 0 0 0;
 }
 
 h1 {
@@ -284,9 +285,6 @@ p {
 
 /* HERO STYLES */
 
-main {
-  margin: var(--spacing-xl) 0;
-}
 .button-container {
   display: flex;
   margin: var(--spacing-md) 0;
