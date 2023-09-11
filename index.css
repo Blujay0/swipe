@@ -501,6 +501,7 @@ main {
 .virtual-events-section {
   display: flex;
   justify-content: center;
+  padding: calc(var(--spacing-xl) * 2) 0;
 }
 
 .virtual-events-section .primary-button {
