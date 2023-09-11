@@ -671,3 +671,8 @@ main {
 .footer .icon-link img {
   width: 24px;
 }
+
+.footer h3 {
+  font-size: var(--h6-size);
+  font-weight: 700;
+}
