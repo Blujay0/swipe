@@ -260,7 +260,6 @@ p {
   padding: 0 var(--spacing-md);
   margin: 0 0 var(--spacing-xl) 0;
 }
-
 .menu {
   display: flex;
   list-style: none;
@@ -285,10 +284,9 @@ p {
   background: rgba(250, 250, 250, 0.5);
 }
 
-/* ANIMATED GARDIENT */
+/* ANIMATED GRADIENT  */
 
 #gradient-canvas {
-  background-color: purple;
   width: 200%;
   height: 970px;
   transform: rotate(-10deg);
@@ -296,6 +294,10 @@ p {
   top: -600px;
   left: -50%;
   z-index: -1;
+  --gradient-color-1: #ef008f;
+  --gradient-color-2: #6ec3f4;
+  --gradient-color-3: #7038ff;
+  --gradient-color-4: #ffba27;
 }
 
 /* HERO STYLES */
@@ -406,14 +408,13 @@ p {
   width: 100%;
   box-shadow: var(--standard-box-shadow);
 }
-
 #dash {
   grid-area: dash;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
 }
 
-/* INTEGRATIONS SECTION STYLES */
+/* INTEGRATIONS SEECTION STYLES */
 .integrations-section {
   color: var(--text-light);
   /* background-color: var(--primary-accent); */
@@ -478,7 +479,6 @@ p {
   justify-content: center;
   padding: calc(var(--spacing-xl) * 3) 0;
 }
-
 .why-swipe-section .card-container {
   display: flex;
   margin: var(--spacing-lg) 0;
@@ -497,7 +497,6 @@ p {
 
 /* GLOBAL SECTION */
 .global-section {
-  /* background-color: var(--primary-accent); */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -555,7 +554,6 @@ p {
   padding: calc(var(--spacing-xl) * 2) 0;
   position: relative;
 }
-
 .virtual-events-section::before {
   content: "";
   background-color: var(--bg-white);
