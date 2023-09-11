@@ -556,7 +556,14 @@ main {
 
 .virtual-events-section .avatars {
   position: absolute;
-  top: 0;
+  bottom: -70px;
+  left: var(--spacing-xl);
   z-index: 3;
+  /* width: 140px;
+  height: 80px; */
 }
 
+.virtual-events-section .avatars img {
+  width: 80px;
+
+}
