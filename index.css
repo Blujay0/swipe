@@ -3,7 +3,7 @@
   --text-light: #fff;
   --text-grey: #adbdcc;
   --body-font: "Roboto", sans-serif;
-  --heading: "Anek Telugu", sans-serif;
+  --heading-font: "Anek Telugu", sans-serif;
   --h1-size: 94px;
   --h1-height: 108px;
   --h2-size: 50px;
@@ -19,7 +19,6 @@
   --secondary-text-size: 14px;
   --secondary-text-height: 18px;
   --button-size: 16px;
-
   /* SPACING */
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -53,6 +52,10 @@ body {
   align-items: center;
 }
 
+main {
+  width: 100%;
+}
+
 h1 {
   font-family: var(--heading-font);
   font-weight: 600;
@@ -62,7 +65,6 @@ h1 {
   letter-spacing: -1px;
   line-height: var(--h1-height);
 }
-
 h2 {
   font-family: var(--heading-font);
   font-weight: 600;
@@ -70,7 +72,6 @@ h2 {
   margin: 0;
   width: 100%;
 }
-
 h3 {
   font-family: var(--heading-font);
   font-weight: 500;
@@ -94,7 +95,6 @@ h5 {
   font-size: var(--h5-size);
   margin: 0;
   width: 100%;
-  letter-spacing: 0.25px;
 }
 
 h6 {
@@ -103,7 +103,6 @@ h6 {
   font-size: var(--h6-size);
   margin: 0;
   width: 100%;
-  letter-spacing: 0.25px;
 }
 
 a {
@@ -116,16 +115,13 @@ a {
 a:hover {
   color: var(--primary-accent);
 }
-
 p {
   font-size: var(--p-size);
   line-height: var(--p-height);
   font-weight: 400;
   margin: var(--spacing-md) 0;
 }
-
-/* Layout Styles */
-
+/* Layout Styles  */
 .section-container {
   width: 100%;
   max-width: var(--standard-width);
@@ -167,7 +163,6 @@ p {
   align-items: flex-start;
   padding: var(--spacing-sm) var(--spacing-md) var(--spacing-sm) 0;
 }
-
 .card .icon {
   height: 50px;
   margin: 0 0 var(--spacing-sm) 0;
@@ -181,7 +176,7 @@ p {
   width: 100%;
 }
 
-.subtitle, 
+.subtitle,
 .subtitle2 {
   color: var(--purple-1);
   font-family: var(--heading-font);
@@ -189,8 +184,6 @@ p {
   font-size: var(--subtitle-size);
   line-height: var(--subtitle-height);
 }
-
-/* override previous .subtitle2 rule and give color of blue  */
 .subtitle2 {
   color: var(--blue-1);
 }
@@ -219,7 +212,6 @@ p {
   background-color: var(--primary-button-hover);
   cursor: pointer;
 }
-
 .secondary-button {
   font-family: var(--body-font);
   font-size: var(--button-size);
@@ -229,7 +221,7 @@ p {
   border: none;
   background-color: transparent;
   color: var(--primary-accent);
-  transition: all 0.15s ease;  
+  transition: all 0.15s ease;
 }
 
 .secondary-button:hover {
@@ -242,11 +234,9 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 .with-icon > img {
   transition: transform 0.25s ease;
 }
-
 .with-icon:hover > img {
   transform: translateX(4px);
 }
@@ -261,7 +251,6 @@ p {
   max-width: var(--standard-width);
   padding: 0 var(--spacing-md);
 }
-
 .menu {
   display: flex;
   list-style: none;
@@ -269,16 +258,15 @@ p {
   align-items: center;
 }
 
-.menu li a {
+.menu a {
   color: var(--text-light);
   margin: 0 var(--spacing-md);
   font-weight: bold;
 }
 
-.menu li a:hover {
+.menu a:hover {
   text-decoration: underline;
 }
-
 .navbar-button {
   background: rgba(250, 250, 250, 0.25);
 }
@@ -292,7 +280,6 @@ p {
 main {
   margin: var(--spacing-xl) 0;
 }
-
 .button-container {
   display: flex;
   margin: var(--spacing-md) 0;
@@ -301,7 +288,12 @@ main {
 .button-container button:nth-of-type(2) {
   margin: 0 0 0 var(--spacing-md);
   color: var(--purple-2);
+}
 
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .hero p {
@@ -319,7 +311,11 @@ main {
 }
 
 /* Partners Section */
-
+.partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .partners-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -333,11 +329,13 @@ main {
   height: 60px;
   place-self: center;
 }
-
 /* UNIFIED PLATFORM SECTION */
 
 .unified-platform-section {
   padding: var(--spacing-xl) 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .unified-platform-section h2 {
@@ -349,13 +347,17 @@ main {
   background-color: var(--purple-1);
   margin: var(--spacing-md) 0;
 }
-
 .unified-platform-section .primary-button:hover {
   background-color: var(--primary-accent);
 }
 
 /* GRAPHIC GRID SECTION */
 
+.graphic-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .graphic-grid {
   display: grid;
   grid-template-areas:
@@ -370,43 +372,38 @@ main {
   grid-area: card;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
-  border-radius: 11px;
 }
-
 #slack-invoice {
   grid-area: slack;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
-  border-radius: 20px;
 }
 
 #phone {
   grid-area: phone;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
-  border-radius: 50px;
 }
-
 #dash {
   grid-area: dash;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
-  border-radius: 10px;
 }
 
-/* INTEGRATIONS SECTION STYLES */
-
+/* INTEGRATIONS SEECTION STYLES */
 .integrations-section {
   color: var(--text-light);
   background-color: var(--primary-accent);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .integrations-section .primary-button {
   background-color: var(--blue-1);
   color: var(--primary-accent);
-  margin: var(--spacing-md) 0 0 0 ;
+  margin: var(--spacing-md) 0 0 0;
 }
-
 .integrations-section .primary-button:hover {
   background-color: var(--bg-white);
 }
@@ -435,8 +432,13 @@ main {
   border-radius: 20px;
 }
 
-/* WHY SWIPE SECTION*/
+/* WHY SWIPE SECTION */
 
+.why-swipe-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .why-swipe-section .card-container {
   display: flex;
   margin: var(--spacing-lg) 0;
@@ -453,3 +455,35 @@ main {
   color: var(--text-dark);
 }
 
+/* GLOBAL SECTION */
+.global-section {
+  background-color: var(--primary-accent);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--text-light);
+}
+
+.global-section a {
+  color: var(--blue-1);
+}
+.global-section a:hover {
+  color: var(--text-light);
+}
+
+.global-section .card-container {
+  display: flex;
+  margin: calc(var(--spacing-xl) * 2) 0;
+}
+.global-section .card-container .card {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+}
+
+.global-section .card-container .card h3 {
+  border-left: 2px solid var(--blue-1);
+  padding: 0 0 0 var(--spacing-sm);
+  line-height: 28px;
+}
