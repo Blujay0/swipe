@@ -554,3 +554,9 @@ main {
   width: 338px;
 }
 
+.virtual-events-section .avatars {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
